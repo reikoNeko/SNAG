@@ -39,17 +39,17 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 
 ---
 # Capture the Flag Games
-## System administration and penetration skills
-## This isn't Project Euler
-## Find flags, score points
-## Many have prizes
+* System administration and penetration skills
+* This isn't Project Euler
+* Find flags, score points
+* Many have prizes
 
 +++
 # CTFs use multiple skillsets: 
-## Command line tools 
-## Web scraping
-## Steganography
-## Exploiting CVEs
+* Command line tools 
+* Web scraping
+* Steganography
+* Exploiting CVEs
 
 SNAG{"Do you see me Red?"}
 ---
@@ -200,12 +200,21 @@ Fabulous(?) prizes!
 https://www.securitybsides.com/
 
 +++
+# WOPR Summit
+* New conference. 
+* 0x00 March 2019 in Atlantic City included a hardware hack space
+* 0x01 March 2020 in Fort Washington
+* Organizer is a CTF writer
+
+https://www.woprsummit.org/
+
++++
 # CyberSEED
 * Collegiate competition at UConn
 * Coming up October 19
 * Top team prize $15,000
 
-
+https://ash.engr.uconn.edu/grav/
 
 +++
 # DefCon
@@ -217,7 +226,7 @@ https://www.securitybsides.com/
 ---
 # More Resources
 * https://www.cyberstudents.org/blog-post/build-your-own-lab/
-* CTFTime.org
+* https://CTFTime.org
 * http://www.wechall.net/
 * http://www.cis.syr.edu/~wedu/seed/all_labs.html
 * https://www.vulnhub.com/resources/

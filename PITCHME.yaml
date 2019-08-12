@@ -1,3 +1,7 @@
-theme : blood
+theme : template
 layout : top
 
+theme-override: assets/css/PITCHME.css
+
+
+published: false

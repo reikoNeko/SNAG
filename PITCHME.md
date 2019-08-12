@@ -50,8 +50,8 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 * Web scraping
 * Steganography
 * Exploiting CVEs
+@color[rgba(44,00,00,0.2)](SNAG{"Do you see me, Red?"})
 
-SNAG{"Do you see me Red?"}
 ---
 # Ybj unatvat sehvg
 Introductory puzzles usually have base64 and rot13 somewhere
@@ -92,7 +92,7 @@ https://microcorruption.com
 
 https://juice-shop.herokuapp.com
 
-SNAG{"Shiny! Let's be bad guys!"}
+@color[rgba(44,00,00,0.2)](SNAG{"Shiny! Let's be bad guys!"})
 
 +++
 ## SANS Holiday Hack

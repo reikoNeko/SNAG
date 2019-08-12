@@ -1,4 +1,4 @@
-# Let's say it started with TRON
+### Let's say it started with TRON
 
 In the movie and the game, Flynn encodes a disk with the data he needs to bypass the Master Control Program and has to find a way to exfiltrate it.
 
@@ -7,45 +7,45 @@ This is basically done by throwing a frisbee. We never get to see how the sausag
 [img: tron.tbd]
 
 ---
-# Push Button, Get Hack
+### Push Button, Get Hack
 
 This abstraction continued through thirty years of cyberpunk games from Neuromancer (1988) through the Deus Ex series including the latest release, Mankind Divided (image: Human Revolution, 2011)
 
 ---
-# Moar Please
+### Moar Please
 
 * "Modern" GUI games: Hacknet, Hack'n'Slash, Else Heart.Break(), Zachtronics
 +++
-## Hack'n'Slash
+#### Hack'n'Slash
 * Zelda-like adventure where your sword is a USB device. Anything with a port can be tweaked.
 * Adjust variables to change object behaviors.
 
 +++
-## Hacknet
+#### Hacknet
 * Story-driven through email, simplified penetration testing
 * Uses some actual Linux/DOS commands (ls|dir, man, scp)  and scripts like SSHcrack
 
 +++
-## Else Heart.Break()
+#### Else Heart.Break()
 * Acquire a Modifier and change the code of lights, network junctions, even beer!
 * In-game language called Språk has developed a small community on github.
 * Story progression is weak but the programming options are not.
 
 +++
-## Zachtronics games
+#### Zachtronics games
 * Three different programming games that use assembly: TIS-100, Shenzhen I/O, and EXAPUNKS
 * In Exapunks you solve problems by programming robotic agents that have IPC. (They look a lot like the gridbugs from TRON.)
 * In Steam versions, your solutions are ranked against other players'.
 
 ---
-# Capture the Flag Games
+### Capture the Flag Games
 * System administration and penetration skills
 * This isn't Project Euler
 * Find flags, score points
 * Many have prizes
 
 +++
-# CTFs use multiple skillsets: 
+### CTFs use multiple skillsets
 * Command line tools 
 * Web scraping
 * Steganography
@@ -53,7 +53,7 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 @color[rgba(44,00,00,0.2)](SNAG{"Do you see me, Red?"})
 
 ---
-# Ybj unatvat sehvg
+### Ybj unatvat sehvg
 Introductory puzzles usually have base64 and rot13 somewhere
 ```
     In [7]: import codecs
@@ -63,19 +63,19 @@ Introductory puzzles usually have base64 and rot13 somewhere
 * Have perl, ipython or Jupyter notebooks handy!
 
 ---
-# One team, two team, red team, blue team
+### One team, two team, red team, blue team
 * The Red Team attacks systems. Many CTFs are only about exercising Red Team skills.
 * The Blue Team defends systems. Most system administration jobs are only about exercising Blue Team skills.
 
 ---
-# Online CTFs
+#### Online CTFs
 * Great place to build skills
 * Often have internal chat systems or comunity boards
 * Play anywhere any time
 * Usually stay available after the scoring period ends
 
 +++
-## Microcorruption
+#### Microcorruption
 * More programming than system adminstration
 * Binary disassembly challenge!
 * If you loved Zachtronics games, this is the place to be.
@@ -84,7 +84,7 @@ Introductory puzzles usually have base64 and rot13 somewhere
 https://microcorruption.com
 
 +++
-## OWASP Juice Shop
+#### OWASP Juice Shop
 * Deliberately subjectable to web attacks
 * Based on Open Web Application Security Project top 10 vulnerabilities
 * Source available on Github
@@ -95,7 +95,7 @@ https://juice-shop.herokuapp.com
 @color[rgba(44,00,00,0.2)](SNAG{"Shiny! Let's be bad guys!"})
 
 +++
-## SANS Holiday Hack
+#### SANS Holiday Hack
 * Sponsored by SANS Institute (who also do expensive training and live CTFs)
 * Annual Xmas-themed competition dating back to 2015
 * Have problems that use recent or famous bugs
@@ -106,12 +106,12 @@ https://holidayhackchallenge.com
 $ t-shirts, admission to online classes
 
 +++
-## More online stuff
+#### More online stuff
 * Smash the Stack: http://smashthestack.org
 * Google CTF: https://capturetheflag.withgoogle.com
 
 ---
-# Try this at home
+### Try this at home
 After getting your feet wet online, you can download virtual machines to test at home.
 * DO NOT expose these to your outside network.
 * Great way to set up packet capturing|filtering to see what attacks look like
@@ -119,38 +119,38 @@ After getting your feet wet online, you can download virtual machines to test at
 * Require VirtualBox, KVM, or VMWare Player
 
 +++
-## Damn Vulnerable Linux
+#### Damn Vulnerable Linux
 * One of the first deliberately insecure releases
 * Discontinued ten years ago and based on slackware, for true horror fans.
 
 +++
-## Metasploitable
+#### Metasploitable
 * Testbed for the Metasploit framework
 * Free resources from the folks who make Kali
 
 https://www.offensive-security.com/metasploit-unleashed/requirements/
 
 +++
-## OWASP BWA
+#### OWASP BWA
 * Broken Web Appications, the precursor to Juice Shop
 * Still available as a VM
 
 https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project
 
 +++
-## VulnHub
+#### VulnHub
 * Many, MANY more deliberately insecure virtual machines
 
 ---
-# Come up to the lab
+### Come up to the lab
 * Old hardware is great! 
 * Don't throw away that insecure D-Link router, use it to make a quarantined network!
 * I have a cheap $200 laptop just for running Kali.
 
-Dumpster diving ain't what it used to be, but there are always Raspberry Pis/
+Dumpster diving ain't what it used to be, but there are always Raspberry Pis
 
 +++
-## RasPwn
+#### RasPwn
 * Virtual network of insecure machines running on a single Pi.
 * Supports RPi 2 or 3B (not 3B+ or 3A+)
 ```
@@ -167,7 +167,7 @@ Dumpster diving ain't what it used to be, but there are always Raspberry Pis/
 https://raspwn.org
 
 +++
-## Sticky Fingers
+#### Sticky Fingers
 * Damn Vulnerable Linux updated to run on the Raspberry Pi
 * Includes suppport for touchscreens
 * Also have a Pi build of Kali
@@ -176,7 +176,7 @@ https://whitedome.com.au/re4son/sticky-fingers-dv-pi/
 
 
 ---
-# Hello World!
+### Hello World!
 
 Live CTF events happen everywhere, particularly at security conferences and collegiate competitions.
 
@@ -187,11 +187,12 @@ Some feature offense and defense at the same time.
 Fabulous(?) prizes!
 
 +++
-## BSides
+#### BSides
 * Regional information security conferences
 * Free or cheap events held all over the country
 * Some feature multiple CTF and wireless hacking events.
 * Another great place to pitch talks!
+
 
 * Newark, DE, November 8-9
 * Philadelphia, probably February 2020
@@ -200,7 +201,7 @@ Fabulous(?) prizes!
 https://www.securitybsides.com/
 
 +++
-# WOPR Summit
+#### WOPR Summit
 * New conference. 
 * 0x00 March 2019 in Atlantic City included a hardware hack space
 * 0x01 March 2020 in Fort Washington
@@ -209,7 +210,7 @@ https://www.securitybsides.com/
 https://www.woprsummit.org/
 
 +++
-# CyberSEED
+#### CyberSEED
 * Collegiate competition at UConn
 * Coming up October 19
 * Top team prize $15,000
@@ -217,20 +218,17 @@ https://www.woprsummit.org/
 https://ash.engr.uconn.edu/grav/
 
 +++
-# DefCon
+#### DefCon
 * Our beacon, it's grail shaped.
 * Online team qualifiers
 * Finals held live at Defcon
 * 2019 results up soon at https://www.oooverflow.io/dc-ctf-2019-finals/
 
 ---
-# More Resources
+### More Resources
 * https://www.cyberstudents.org/blog-post/build-your-own-lab/
 * https://CTFTime.org
 * http://www.wechall.net/
 * http://www.cis.syr.edu/~wedu/seed/all_labs.html
 * https://www.vulnhub.com/resources/
-* https://www.youtube.com/watch?v=8ev9ZX9J45A
-
-
-
+* LiveOverflow's video introduction to CTFs:<br> https://www.youtube.com/watch?v=8ev9ZX9J45A

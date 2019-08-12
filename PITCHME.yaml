@@ -1,7 +1,7 @@
 theme : template
 layout : top
 
-theme-override: assets/css/PITCHME.css
+theme-override: PITCHME.css
 
 
 published: false

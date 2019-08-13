@@ -1,41 +1,57 @@
 ### Let's say it started with TRON
 
+<img src="images/discs_of_tron_cabinet.png" height="400" align="right" alt="Discs of Tron video game cabinet">
+
 In the movie and the game, Flynn encodes a disk with the data he needs to bypass the Master Control Program and has to find a way to exfiltrate it.
 
 This is basically done by throwing a frisbee. We never get to see how the sausage is made.
 
-[img: tron.tbd]
 
 ---
 ### Push Button, Get Hack
 
-This abstraction continued through thirty years of cyberpunk games from Neuromancer (1988) through the Deus Ex series including the latest release, Mankind Divided (image: Human Revolution, 2011)
+This abstraction continued through thirty years of cyberpunk games from Neuromancer (1988) through the Deus Ex series including the latest release, Mankind Divided.
+
+<img src="images/neuromancer_hacking.jpg" height="200" align="left" alt="Neuromancer hack screen">
+<img src="images/dx_divided_camera_takeover.jpg" height="200" align="right" alt="Security Camera hack in Deus Ex">
+
 
 ---
 ### Moar Please
 
-* "Modern" GUI games: Hacknet, Hack'n'Slash, Else Heart.Break(), Zachtronics
-+++
+* More recently, hacking games like Hacknet, Hack'n'Slash, Else Heart.Break(), and Exapunks, have focused on actually chaging code within the game
+---
 #### Hack'n'Slash
 * Zelda-like adventure where your sword is a USB device. Anything with a port can be tweaked.
 * Adjust variables to change object behaviors.
 
-+++
+<img src="images/hack_n_slash_turtle_spawner.jpg" height="300" align="center" alt="Flipped turtles can be programmed.">
+
+
+---
 #### Hacknet
 * Story-driven through email, simplified penetration testing
 * Uses some actual Linux/DOS commands (ls|dir, man, scp)  and scripts like SSHcrack
 
-+++
+---
 #### Else Heart.Break()
-* Acquire a Modifier and change the code of lights, network junctions, even beer!
+* Acquire a Modifier and change the code of street lights, network junctions, even beer!
 * In-game language called Språk has developed a small community on github.
 * Story progression is weak but the programming options are not.
 
-+++
+<img src="images/Else_HeartBreak_hotel_code.png" height="300" align="center" alt="The hotel computer's source">
+
+
+---
 #### Zachtronics games
 * Three different programming games that use assembly: TIS-100, Shenzhen I/O, and EXAPUNKS
-* In Exapunks you solve problems by programming robotic agents that have IPC. (They look a lot like the gridbugs from TRON.)
 * In Steam versions, your solutions are ranked against other players'.
+---
+#### Exapunks
+* In Exapunks you solve problems by programming robotic agents that have IPC. (They look a lot like the gridbugs from TRON.)
+
+<img src="images/exapunks_phage_hack.jpg" height="300" align="center" alt="Programming gridbots">
+
 
 ---
 ### Capture the Flag Games
@@ -44,7 +60,7 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 * Find flags, score points
 * Many have prizes
 
-+++
+---
 ### CTFs use multiple skillsets
 * Command line tools 
 * Web scraping
@@ -74,7 +90,7 @@ Introductory puzzles usually have base64 and rot13 somewhere
 * Play anywhere any time
 * Usually stay available after the scoring period ends
 
-+++
+---
 #### Microcorruption
 * More programming than system adminstration
 * Binary disassembly challenge!
@@ -83,7 +99,7 @@ Introductory puzzles usually have base64 and rot13 somewhere
 
 https://microcorruption.com
 
-+++
+---
 #### OWASP Juice Shop
 * Deliberately subjectable to web attacks
 * Based on Open Web Application Security Project top 10 vulnerabilities
@@ -94,7 +110,7 @@ https://juice-shop.herokuapp.com
 
 @color[rgba(44,00,00,0.2)](SNAG{"Shiny! Let's be bad guys!"})
 
-+++
+---
 #### SANS Holiday Hack
 * Sponsored by SANS Institute (who also do expensive training and live CTFs)
 * Annual Xmas-themed competition dating back to 2015
@@ -103,9 +119,10 @@ https://juice-shop.herokuapp.com
 * Reports are a major requirement
 
 https://holidayhackchallenge.com
+
 $ t-shirts, admission to online classes
 
-+++
+---
 #### More online stuff
 * Smash the Stack: http://smashthestack.org
 * Google CTF: https://capturetheflag.withgoogle.com
@@ -118,26 +135,26 @@ After getting your feet wet online, you can download virtual machines to test at
 * Attack, defend, attack again, wipe and reinstall
 * Require VirtualBox, KVM, or VMWare Player
 
-+++
+---
 #### Damn Vulnerable Linux
 * One of the first deliberately insecure releases
 * Discontinued ten years ago and based on slackware, for true horror fans.
 
-+++
+---
 #### Metasploitable
 * Testbed for the Metasploit framework
 * Free resources from the folks who make Kali
 
 https://www.offensive-security.com/metasploit-unleashed/requirements/
 
-+++
+---
 #### OWASP BWA
 * Broken Web Appications, the precursor to Juice Shop
 * Still available as a VM
 
 https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project
 
-+++
+---
 #### VulnHub
 * Many, MANY more deliberately insecure virtual machines
 
@@ -149,7 +166,7 @@ https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project
 
 Dumpster diving ain't what it used to be, but there are always Raspberry Pis
 
-+++
+---
 #### RasPwn
 * Virtual network of insecure machines running on a single Pi.
 * Supports RPi 2 or 3B (not 3B+ or 3A+)
@@ -166,7 +183,7 @@ Dumpster diving ain't what it used to be, but there are always Raspberry Pis
 
 https://raspwn.org
 
-+++
+---
 #### Sticky Fingers
 * Damn Vulnerable Linux updated to run on the Raspberry Pi
 * Includes suppport for touchscreens
@@ -178,6 +195,10 @@ https://whitedome.com.au/re4son/sticky-fingers-dv-pi/
 ---
 ### Hello World!
 
+<img src="images/oreilly_do_it_live.jpg" height="400" align="center" alt="We'll do it live!">
+
+
+---
 Live CTF events happen everywhere, particularly at security conferences and collegiate competitions.
 
 Bring friends or form pick-up teams.
@@ -186,7 +207,7 @@ Some feature offense and defense at the same time.
 
 Fabulous(?) prizes!
 
-+++
+---
 #### BSides
 * Regional information security conferences
 * Free or cheap events held all over the country
@@ -200,7 +221,7 @@ Fabulous(?) prizes!
 
 https://www.securitybsides.com/
 
-+++
+---
 #### WOPR Summit
 * New conference. 
 * 0x00 March 2019 in Atlantic City included a hardware hack space
@@ -209,7 +230,7 @@ https://www.securitybsides.com/
 
 https://www.woprsummit.org/
 
-+++
+---
 #### CyberSEED
 * Collegiate competition at UConn
 * Coming up October 19
@@ -217,9 +238,9 @@ https://www.woprsummit.org/
 
 https://ash.engr.uconn.edu/grav/
 
-+++
+---
 #### DefCon
-* Our beacon, it's grail shaped.
+<img src="images/HolyGrail086.jpg" height="200" align="right" alt="Our beacon, it's grail shaped.">
 * Online team qualifiers
 * Finals held live at Defcon
 * 2019 results up soon at https://www.oooverflow.io/dc-ctf-2019-finals/

@@ -45,7 +45,7 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 * In-game language called Språk has developed a small community on github.
 * Story progression is weak but the programming options are not.
 
-<img src="images/Else_HeartBreak_hotel_code.png" height="300" align="center" alt="The hotel computer's source">
+<img src="images/Else_HeartBreak_hotel_code_1024x596.png" height="300" align="center" alt="The hotel computer's source">
 
 
 ---

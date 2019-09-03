@@ -126,7 +126,7 @@ Other common mid-tier CTF puzzles exploit well-known problems
 * SQL injection and Cross-site scripting
 * Default passwords
 
-If these seem contrived, think about IoT devices, or companies still running RHEL5 and Windows XP.
+If these seem contrived, think about IoT devices, or companies still running Windows XP and Server 2008, RHEL 5, or Debian Wheezy. Have you been to https://www.shodan.io?
 
 ---
 ### A picture is worth...

@@ -147,8 +147,8 @@ https://ctfs.github.io/resources/topics/steganography/README.html
 #### Microcorruption
 * More programming than system adminstration
 * Binary disassembly challenge!
-* If you loved Zachtronics games, this is the place to be.
 * Watch what happens when you overflow a buffer.
+<img src="images/microcorruption.jpg" height="300" align="center" alt="MicroCorruption interactive disassembly">
 
 https://microcorruption.com
 

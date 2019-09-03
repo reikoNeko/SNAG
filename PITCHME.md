@@ -61,10 +61,16 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 
 ---
 ### Capture the Flag Games
-* System administration and penetration skills
-* This isn't Project Euler
 * Find flags, score points
+* System administration and penetration skills
+* Some programming but this isn't Project Euler
 * Many have prizes
+
+---
+### One team, two team, red team, blue team
+* The Red Team attacks systems. Many CTFs are only about exercising Red Team skills.
+* The Blue Team defends systems. Most system administration jobs are only about exercising Blue Team skills.
+* CTF puzzles help defenders think like attackers.
 
 ---
 ### CTFs use multiple skillsets
@@ -76,23 +82,66 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 
 ---
 ### Ybj unatvat sehvg
-Introductory puzzles usually have base64 and rot13 somewhere
+Introductory puzzles whet the palette for harder challenges.
+* Find plain text flags in zip files, html, robots.txt
+* Simple encodings like rot13 or base64 often found
 ```
     In [7]: import codecs
     In [8]: codecs.decode('Ybj unatvat sehvg', 'rot_13')
     Out[8]: 'Low hanging fruit'
 ```
 * Have perl, ipython or Jupyter notebooks handy!
+* Handy for solving small real-life problems!
 
 ---
-### One team, two team, red team, blue team
-* The Red Team attacks systems. Many CTFs are only about exercising Red Team skills.
-* The Blue Team defends systems. Most system administration jobs are only about exercising Blue Team skills.
+### Last night a DJ saved my life.
+(Nah, it was a hax0r.)
+```
+Just in case you thought that CTF skills aren't useful in the real world, 
+the WPRB stream changed recently, breaking my saved bookmark in Rhythmbox.
+On the station's web page, there was a popup player, but not a direct URL
+for desktop players anymore. What's a Linux geek to do?
+
+view-source:http://wprb.com/popup-player/
+
+Where we find the configuration string
+
+  P3jPLAYLISTS.inline_0 = [
+	  { name: "listen", formats: ["mp3"], mp3: "aHR0cDovL3dwcmIuc3RyZWFtZ3V5czEuY29tL2xpc3Rlbi5tcDM=", counterpart:"", artist: "", image: "", imgurl: "" }
+  ];
+  
+That mp3 value looks like base64, eh!
+
+$ echo "aHR0cDovL3dwcmIuc3RyZWFtZ3V5czEuY29tL2xpc3Rlbi5tcDM=" | base64 -d
+http://wprb.streamguys1.com/listen.mp3
+
+So now I've updated my stream properties and can blast good college radio on my desktop again.
+```
+<br>https://gist.github.com/reikoNeko/236023a7c2d7f160ef6c0170306319d0
+
+---
+### You should know better by now
+Other common mid-tier CTF puzzles exploit well-known problems
+* Weak encryption schemes
+* SQL injection and Cross-site scripting
+* Default passwords
+
+If these seem contrived, think about IoT devices, or companies still running RHEL5 and Windows XP.
+
+---
+### A picture is worth...
+* Look for flags or URLs in EXIF data
+* Eye of Gnome|Mate, GwenView, Python PILlow library and others show image metadata
+* steghide or stegosuite may have been used on the image itself
+* Open GIF animations in gimp to adjust palettes.
+
+https://ctfs.github.io/resources/topics/steganography/README.html
+
 
 ---
 #### Online CTFs
 * Great place to build skills
-* Often have internal chat systems or comunity boards
+* Some have internal chat systems or comunity boards
 * Play anywhere any time
 * Usually stay available after the scoring period ends
 
@@ -120,18 +169,20 @@ https://juice-shop.herokuapp.com
 #### SANS Holiday Hack
 * Sponsored by SANS Institute (who also do expensive training and live CTFs)
 * Annual Xmas-themed competition dating back to 2015
+* Multiple puzzle types plus 
 * Have problems that use recent or famous bugs
 * Watch blogs at sans.org and major CVEs to get a head start
 * Reports are a major requirement
+* Prizes like t-shirts, challenge coins, admission to online classes
 
 https://holidayhackchallenge.com
 
-$ t-shirts, admission to online classes
 
 ---
 #### More online stuff
 * Smash the Stack: http://smashthestack.org
 * Google CTF: https://capturetheflag.withgoogle.com
+* CTFJawn: http://ctfjawn.org/
 
 ---
 ### Try this at home
@@ -163,6 +214,8 @@ https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project
 ---
 #### VulnHub
 * Many, MANY more deliberately insecure virtual machines
+
+https://www.vulnhub.com
 
 ---
 ### Come up to the lab
@@ -232,7 +285,7 @@ https://www.securitybsides.com/
 * New conference. 
 * 0x00 March 2019 in Atlantic City included a hardware hack space
 * 0x01 March 2020 in Fort Washington
-* Organizer is a CTF writer
+* Organizer cowrote CTFJawn2017 at BSides Philly
 
 https://www.woprsummit.org/
 
@@ -249,7 +302,7 @@ https://ash.engr.uconn.edu/grav/
 <img src="images/HolyGrail086.jpg" height="200" align="right" alt="Our beacon, it's grail shaped.">
 * Online team qualifiers
 * Finals held live at Defcon
-* 2019 results up soon at https://www.oooverflow.io/dc-ctf-2019-finals/
+* 2019 results up now at https://www.oooverflow.io/dc-ctf-2019-finals/
 
 ---
 ### More Resources
@@ -258,4 +311,5 @@ https://ash.engr.uconn.edu/grav/
 * http://www.wechall.net/
 * http://www.cis.syr.edu/~wedu/seed/all_labs.html
 * https://www.vulnhub.com/resources/
+* https://medium.com/secjuice/ctfjawn-2017-bsides-philly-write-up-801206d73f57
 * LiveOverflow's video introduction to CTFs:<br> https://www.youtube.com/watch?v=8ev9ZX9J45A

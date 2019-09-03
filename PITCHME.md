@@ -1,7 +1,8 @@
 ## SECURITY IS NOT A GAME (THE GAME)
-
 ### from Tron to DefCon in 45 minutes
-
+##### Rachel Rawlings
+##### 🐦️ @LinuxAndYarn      🐙️ reikoNeko
+##### IRC: Penth on Freenode (usually in #plug)
 ---
 
 ### Let's say it started with TRON
@@ -10,7 +11,7 @@
 
 In the movie and the game, Flynn encodes a disk with the data he needs to bypass the Master Control Program and has to find a way to exfiltrate it.
 
-This is basically done by throwing a frisbee. We never get to see how the sausage is made.
+We never get to see how he encodes the data or breaks the MCP with code. He just throws a frisbee a lot.
 
 
 ---
@@ -28,25 +29,26 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 * More recently, hacking games like Hacknet, Hack'n'Slash, Else Heart.Break(), and Exapunks, have focused on actually chaging code within the game
 ---
 #### Hack'n'Slash
-* Zelda-like adventure where your sword is a USB device. Anything with a port can be tweaked.
+* Zelda-like adventure where your sword is a USB device.
+* Anything with a port can be tweaked.
 * Adjust variables to change object behaviors.
 
 <img src="images/hack_n_slash_turtle_spawner.jpg" height="300" align="center" alt="Flipped turtles can be programmed.">
 
-
 ---
 #### Hacknet
 * Story-driven through email, simplified penetration testing
+* Lots of easter eggs like #TalesFromIRC
 * Uses some actual Linux/DOS commands (ls|dir, man, scp)  and scripts like SSHcrack
+<img src="images/hacknet.png" height="300" align="center" alt="Read others' IRC chats">
+
 
 ---
 #### Else Heart.Break()
 * Acquire a Modifier and change the code of street lights, network junctions, even beer!
 * In-game language called Språk has developed a small community on github.
 * Story progression is weak but the programming options are not.
-
 <img src="images/Else_HeartBreak_hotel_code_1024x596.png" height="300" align="center" alt="The hotel computer's source">
-
 
 ---
 #### Zachtronics games
@@ -54,8 +56,10 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 * In Steam versions, your solutions are ranked against other players'.
 ---
 #### Exapunks
-* In Exapunks you solve problems by programming robotic agents that have IPC. (They look a lot like the gridbugs from TRON.)
-
+* Hack systems to prevent yourself from becoming further infected with "The Phage"
+* Read Zines to get gnarly coding tips
+* Solve problems by programming robotic agents that have IPC. (They look a lot like the gridbugs from TRON.)
+* Swarm your bots and then terminate them. Take all data, leave no trace. 
 <img src="images/exapunks_phage_hack.jpg" height="300" align="center" alt="Programming gridbots">
 
 
@@ -67,13 +71,13 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 * Many have prizes
 
 ---
-### One team, two team, red team, blue team
+#### One team, two team, red team, blue team
 * The Red Team attacks systems. Many CTFs are only about exercising Red Team skills.
 * The Blue Team defends systems. Most system administration jobs are only about exercising Blue Team skills.
 * CTF puzzles help defenders think like attackers.
 
 ---
-### CTFs use multiple skillsets
+#### CTFs use multiple skillsets
 * Command line tools 
 * Web scraping
 * Steganography
@@ -81,7 +85,7 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 @color[rgba(44,00,00,0.2)](SNAG{"Do you see me, Red?"})
 
 ---
-### Ybj unatvat sehvg
+#### Ybj unatvat sehvg
 Introductory puzzles whet the palette for harder challenges.
 * Find plain text flags in zip files, html, robots.txt
 * Simple encodings like rot13 or base64 often found
@@ -91,36 +95,30 @@ Introductory puzzles whet the palette for harder challenges.
     Out[8]: 'Low hanging fruit'
 ```
 * Have perl, ipython or Jupyter notebooks handy!
-* Handy for solving small real-life problems!
+* Handy practice for solving small real-life problems!
 
 ---
-### Last night a DJ saved my life.
-(Nah, it was a hax0r.)
+#### Last night a <strike>DJ</strike> hacker saved my life.
+Problem: WPRB's stream no longer worked in Rhythmbox
+
+Solution: View the source of their pop-up player
 ```
-Just in case you thought that CTF skills aren't useful in the real world, 
-the WPRB stream changed recently, breaking my saved bookmark in Rhythmbox.
-On the station's web page, there was a popup player, but not a direct URL
-for desktop players anymore. What's a Linux geek to do?
-
-view-source:http://wprb.com/popup-player/
-
-Where we find the configuration string
-
-  P3jPLAYLISTS.inline_0 = [
-	  { name: "listen", formats: ["mp3"], mp3: "aHR0cDovL3dwcmIuc3RyZWFtZ3V5czEuY29tL2xpc3Rlbi5tcDM=", counterpart:"", artist: "", image: "", imgurl: "" }
+P3jPLAYLISTS.inline_0 = [
+    { name: "listen", 
+      formats: ["mp3"], 
+      mp3: "aHR0cDovL3dwcmIuc3RyZWFtZ3V5czEuY29tL2xpc3Rlbi5tcDM=", 
+      ....  }
   ];
-  
-That mp3 value looks like base64, eh!
-
+```  
+Use 1337 CTF skills to get the new URL
+```
 $ echo "aHR0cDovL3dwcmIuc3RyZWFtZ3V5czEuY29tL2xpc3Rlbi5tcDM=" | base64 -d
 http://wprb.streamguys1.com/listen.mp3
-
-So now I've updated my stream properties and can blast good college radio on my desktop again.
 ```
 <br>https://gist.github.com/reikoNeko/236023a7c2d7f160ef6c0170306319d0
 
 ---
-### You should know better by now
+#### You should know better by now
 Other common mid-tier CTF puzzles exploit well-known problems
 * Weak encryption schemes
 * SQL injection and Cross-site scripting
@@ -129,7 +127,7 @@ Other common mid-tier CTF puzzles exploit well-known problems
 If these seem contrived, think about IoT devices, or companies still running Windows XP and Server 2008, RHEL 5, or Debian Wheezy. Have you been to https://www.shodan.io?
 
 ---
-### A picture is worth...
+#### A picture is worth...
 * Look for flags or URLs in EXIF data
 * Eye of Gnome|Mate, GwenView, Python PILlow library and others show image metadata
 * steghide or stegosuite may have been used on the image itself
@@ -139,7 +137,7 @@ https://ctfs.github.io/resources/topics/steganography/README.html
 
 
 ---
-#### Online CTFs
+### Online CTFs
 * Great place to build skills
 * Some have internal chat systems or comunity boards
 * Play anywhere any time
@@ -182,7 +180,7 @@ https://holidayhackchallenge.com
 #### More online stuff
 * Smash the Stack: http://smashthestack.org
 * Google CTF: https://capturetheflag.withgoogle.com
-* CTFJawn: http://ctfjawn.org/
+
 
 ---
 ### Try this at home
@@ -310,6 +308,16 @@ https://ash.engr.uconn.edu/grav/
 * https://CTFTime.org
 * http://www.wechall.net/
 * http://www.cis.syr.edu/~wedu/seed/all_labs.html
-* https://www.vulnhub.com/resources/
 * https://medium.com/secjuice/ctfjawn-2017-bsides-philly-write-up-801206d73f57
-* LiveOverflow's video introduction to CTFs:<br> https://www.youtube.com/watch?v=8ev9ZX9J45A
+* https://www.youtube.com/watch?v=8ev9ZX9J45A
+* https://www.twitch.tv/bletchleypunk/videos
+
+---
+### Game <strike>Over</strike> Just Beginning
+Thank you!
+
+Rachel Rawlings
+Penth on Freenode
+Twitter: LinuxAndYarn
+
+This presentation is at https://gitpitch.com/reikoNeko/SNAG

@@ -2,8 +2,7 @@
 ### from Tron to DefCon in 45 minutes
 
 ##### Rachel Rawlings
-##### 🐦️ @LinuxAndYarn      🐙️ reikoNeko
-##### IRC: Penth on Freenode (usually in #plug)
+
 ---
 
 ### Let's say it started with TRON
@@ -270,8 +269,7 @@ Fabulous(?) prizes!
 * Some feature multiple CTF and wireless hacking events.
 * Another great place to pitch talks!
 
-
-* Newark, DE, November 8-9
+* Newark, DE, November 8-9, 2019
 * Philadelphia, probably February 2020
 * Baltimore, April 4-5, 2020
 
@@ -280,8 +278,8 @@ https://www.securitybsides.com/
 ---
 #### WOPR Summit
 * New conference. 
-* 0x00 March 2019 in Atlantic City included a hardware hack space
 * 0x01 March 2020 in Fort Washington
+* 0x00 March 2019 in Atlantic City included a hardware hack space
 * Organizer cowrote CTFJawn2017 at BSides Philly
 
 https://www.woprsummit.org/
@@ -297,6 +295,7 @@ https://ash.engr.uconn.edu/grav/
 ---
 #### DefCon
 <img src="images/HolyGrail086.jpg" height="200" align="right" alt="Our beacon, it's grail shaped.">
+
 * Online team qualifiers
 * Finals held live at Defcon
 * 2019 results up now at https://www.oooverflow.io/dc-ctf-2019-finals/
@@ -315,8 +314,10 @@ https://ash.engr.uconn.edu/grav/
 ### Game <strike>Over</strike> Just Beginning
 Thank you!
 
-Rachel Rawlings
-Penth on Freenode
-Twitter: LinuxAndYarn
+##### Rachel Rawlings
 
-This presentation is at https://gitpitch.com/reikoNeko/SNAG
+Penth on Freenode (usually in #plug)
+
+Twitter: @LinuxAndYarn
+
+This presentation is at<br>https://gitpitch.com/reikoNeko/SNAG

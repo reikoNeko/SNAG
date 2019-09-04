@@ -1,5 +1,6 @@
 ## SECURITY IS NOT A GAME (THE GAME)
 ### from Tron to DefCon in 45 minutes
+
 ##### Rachel Rawlings
 ##### 🐦️ @LinuxAndYarn      🐙️ reikoNeko
 ##### IRC: Penth on Freenode (usually in #plug)
@@ -56,19 +57,19 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 * In Steam versions, your solutions are ranked against other players'.
 ---
 #### Exapunks
-* Hack systems to prevent yourself from becoming further infected with "The Phage"
-* Read Zines to get gnarly coding tips
-* Solve problems by programming robotic agents that have IPC. (They look a lot like the gridbugs from TRON.)
+* You're sick with "the Phage." Hack or die.
+* Read Zines to get gnarly coding tips.
+* Solve problems by programming robotic agents that have IPC.
 * Swarm your bots and then terminate them. Take all data, leave no trace. 
 <img src="images/exapunks_phage_hack.jpg" height="300" align="center" alt="Programming gridbots">
 
 
 ---
 ### Capture the Flag Games
-* Find flags, score points
-* System administration and penetration skills
-* Some programming but this isn't Project Euler
-* Many have prizes
+* Find flags, score points.
+* Use system administration and penetration testing skills.
+* There's some programming but this isn't Project Euler
+* Many have prizes.
 
 ---
 #### One team, two team, red team, blue team
@@ -167,12 +168,10 @@ https://juice-shop.herokuapp.com
 #### SANS Holiday Hack
 * Sponsored by SANS Institute (who also do expensive training and live CTFs)
 * Annual Xmas-themed competition dating back to 2015
-* Multiple puzzle types plus 
 * Have problems that use recent or famous bugs
 * Watch blogs at sans.org and major CVEs to get a head start
 * Reports are a major requirement
 * Prizes like t-shirts, challenge coins, admission to online classes
-
 https://holidayhackchallenge.com
 
 

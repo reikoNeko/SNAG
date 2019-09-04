@@ -154,7 +154,7 @@ https://ctfs.github.io/resources/topics/steganography/README.html
 * Binary disassembly challenge!
 * Watch what happens when you overflow a buffer.
 
-<img src="images/microcurruption.jpg" height="300" align="center" alt="MicroCorruption interactive disassembly">
+<img src="images/microcurruption.png" height="300" align="center" alt="MicroCorruption interactive disassembly">
 
 https://microcorruption.com
 

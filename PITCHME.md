@@ -40,6 +40,7 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 * Story-driven through email, simplified penetration testing
 * Lots of easter eggs like #TalesFromIRC
 * Uses some actual Linux/DOS commands (ls|dir, man, scp)  and scripts like SSHcrack
+
 <img src="images/hacknet.png" height="300" align="center" alt="Read others' IRC chats">
 
 
@@ -48,6 +49,7 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 * Acquire a Modifier and change the code of street lights, network junctions, even beer!
 * In-game language called Språk has developed a small community on github.
 * Story progression is weak but the programming options are not.
+
 <img src="images/Else_HeartBreak_hotel_code_1024x596.png" height="300" align="center" alt="The hotel computer's source">
 
 ---
@@ -60,6 +62,7 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 * Read Zines to get gnarly coding tips.
 * Solve problems by programming robotic agents that have IPC.
 * Swarm your bots and then terminate them. Take all data, leave no trace. 
+
 <img src="images/exapunks_phage_hack.jpg" height="300" align="center" alt="Programming gridbots">
 
 
@@ -110,12 +113,15 @@ P3jPLAYLISTS.inline_0 = [
       ....  }
   ];
 ```  
+
 Use 1337 CTF skills to get the new URL
+
 ```
 $ echo "aHR0cDovL3dwcmIuc3RyZWFtZ3V5czEuY29tL2xpc3Rlbi5tcDM=" | base64 -d
 http://wprb.streamguys1.com/listen.mp3
 ```
-<br>https://gist.github.com/reikoNeko/236023a7c2d7f160ef6c0170306319d0
+
+https://gist.github.com/reikoNeko/236023a7c2d7f160ef6c0170306319d0
 
 ---
 #### You should know better by now
@@ -148,6 +154,7 @@ https://ctfs.github.io/resources/topics/steganography/README.html
 * More programming than system adminstration
 * Binary disassembly challenge!
 * Watch what happens when you overflow a buffer.
+
 <img src="images/microcorruption.jpg" height="300" align="center" alt="MicroCorruption interactive disassembly">
 
 https://microcorruption.com

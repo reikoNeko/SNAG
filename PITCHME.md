@@ -48,7 +48,6 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 #### Else Heart.Break()
 * Acquire a Modifier and change the code of street lights, network junctions, even beer!
 * In-game language called Språk has developed a small community on github.
-* Story progression is weak but the programming options are not.
 
 <img src="images/Else_HeartBreak_hotel_code_1024x596.png" height="300" align="center" alt="The hotel computer's source">
 
@@ -85,6 +84,7 @@ This abstraction continued through thirty years of cyberpunk games from Neuroman
 * Web scraping
 * Steganography
 * Exploiting CVEs
+
 @color[rgba(44,00,00,0.2)](SNAG{"Do you see me, Red?"})
 
 ---
@@ -115,7 +115,6 @@ P3jPLAYLISTS.inline_0 = [
 ```  
 
 Use 1337 CTF skills to get the new URL
-
 ```
 $ echo "aHR0cDovL3dwcmIuc3RyZWFtZ3V5czEuY29tL2xpc3Rlbi5tcDM=" | base64 -d
 http://wprb.streamguys1.com/listen.mp3
@@ -155,7 +154,7 @@ https://ctfs.github.io/resources/topics/steganography/README.html
 * Binary disassembly challenge!
 * Watch what happens when you overflow a buffer.
 
-<img src="images/microcorruption.jpg" height="300" align="center" alt="MicroCorruption interactive disassembly">
+<img src="images/microcurruption.jpg" height="300" align="center" alt="MicroCorruption interactive disassembly">
 
 https://microcorruption.com
 

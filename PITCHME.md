@@ -169,6 +169,15 @@ https://juice-shop.herokuapp.com
 
 @color[rgba(44,00,00,0.2)](SNAG{"Shiny! Let's be bad guys!"})
 
+
+---
+#### PicoCTF
+* Starts September 27th!
+* Competition for middle and high school students sponsored by Carnegie-Mellon
+* Adults can play for fun after competitive rounds end.
+
+https://picoctf.com/
+
 ---
 #### SANS Holiday Hack
 * Sponsored by SANS Institute (who also do expensive training and live CTFs)
@@ -176,7 +185,7 @@ https://juice-shop.herokuapp.com
 * Have problems that use recent or famous bugs
 * Watch blogs at sans.org and major CVEs to get a head start
 * Reports are a major requirement
-* Prizes like t-shirts, challenge coins, admission to online classes
+
 https://holidayhackchallenge.com
 
 

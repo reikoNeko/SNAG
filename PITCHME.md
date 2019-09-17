@@ -214,14 +214,17 @@ After getting your feet wet online, you can download virtual machines to test at
 * Free resources from the folks who make Kali
 
 https://metasploit.help.rapid7.com/docs/metasploitable-2-exploitability-guide
+
 https://www.offensive-security.com/metasploit-unleashed/requirements/
 
 ---
-#### OWASP BWA
-* Broken Web Appications, the precursor to Juice Shop
-* Still available as a VM
+#### SEED Labs
+* Created at Syracuse University
+* Exercises built around specific exploits such as DirtyCOW and XSS
+* Includes Cryptography and Mobile exercises
 
-https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project
+https://seedsecuritylabs.org/
+
 
 ---
 #### VulnHub

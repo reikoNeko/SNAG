@@ -213,6 +213,7 @@ After getting your feet wet online, you can download virtual machines to test at
 * Testbed for the Metasploit framework
 * Free resources from the folks who make Kali
 
+https://metasploit.help.rapid7.com/docs/metasploitable-2-exploitability-guide
 https://www.offensive-security.com/metasploit-unleashed/requirements/
 
 ---
@@ -284,7 +285,7 @@ Fabulous(?) prizes!
 * Some feature multiple CTF and wireless hacking events.
 * Another great place to pitch talks!
 
-* Newark, DE, November 8-9, 2019
+* Newark, DE, November 8-9, 2019 (CTF Open Now)
 * Philadelphia, probably February 2020
 * Baltimore, April 4-5, 2020
 

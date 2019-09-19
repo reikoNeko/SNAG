@@ -123,13 +123,15 @@ http://wprb.streamguys1.com/listen.mp3
 https://gist.github.com/reikoNeko/236023a7c2d7f160ef6c0170306319d0
 
 ---
-#### You should know better by now
-Other common mid-tier CTF puzzles exploit well-known problems
+#### Folks should know better by now
+Other common CTF puzzles exploit well-known problems
+* Default passwords
 * Weak encryption schemes
 * SQL injection and Cross-site scripting
-* Default passwords
+* Unsanitized inputs
 
-If these seem contrived, think about IoT devices, or companies still running Windows XP and Server 2008, RHEL 5, or Debian Wheezy. Have you been to https://www.shodan.io?
+If these seem contrived, WordPress fixed six XSS bugs in one patch this month.
+ Think about IoT devices, or companies still running post-End-of-Life operating systems. Have you been to https://www.shodan.io?
 
 ---
 #### A picture is worth...
@@ -144,7 +146,7 @@ https://ctfs.github.io/resources/topics/steganography/README.html
 ---
 ### Online CTFs
 * Great place to build skills
-* Some have internal chat systems or comunity boards
+* Some have internal chat systems or community boards
 * Play anywhere any time
 * Usually stay available after the scoring period ends
 
@@ -191,9 +193,13 @@ https://holidayhackchallenge.com
 
 ---
 #### More online stuff
-* Smash the Stack: http://smashthestack.org
+Story-driven challenges:
+* PicoCTF: https://picoctf.com
 * Google CTF: https://capturetheflag.withgoogle.com
 
+Multi-puzzle sites:
+* Smash the Stack: http://smashthestack.org
+* WeChall: http://www.wechall.net/
 
 ---
 ### Try this at home
@@ -224,7 +230,6 @@ https://www.offensive-security.com/metasploit-unleashed/requirements/
 * Includes Cryptography and Mobile exercises
 
 https://seedsecuritylabs.org/
-
 
 ---
 #### VulnHub
@@ -313,7 +318,7 @@ https://ash.engr.uconn.edu/grav/
 
 ---
 #### DefCon
-<img src="images/HolyGrail086.jpg" height="200" align="right" alt="Our beacon, it's grail shaped.">
+<img src="images/HolyGrail086.jpg" height="200" align="center" alt="Our beacon, it's grail shaped.">
 
 * Online team qualifiers
 * Finals held live at Defcon
@@ -321,13 +326,21 @@ https://ash.engr.uconn.edu/grav/
 
 ---
 ### More Resources
+
+Home lab setup:
 * https://www.cyberstudents.org/blog-post/build-your-own-lab/
-* https://CTFTime.org
-* http://www.wechall.net/
-* http://www.cis.syr.edu/~wedu/seed/all_labs.html
-* https://medium.com/secjuice/ctfjawn-2017-bsides-philly-write-up-801206d73f57
+
+LiveOverflow's Video Intro to CTFs:
 * https://www.youtube.com/watch?v=8ev9ZX9J45A
+
+Walkthrough of a BSides CTF solution:
+* https://medium.com/secjuice/ctfjawn-2017-bsides-philly-write-up-801206d73f57
+
+Alice Goldfuss solves CTFs in real time:
 * https://www.twitch.tv/bletchleypunk/videos
+
+Directory of live and upcoming CTF events:
+* https://CTFTime.org
 
 ---
 ### Game <strike>Over</strike> Just Beginning

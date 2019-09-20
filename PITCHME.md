@@ -116,7 +116,8 @@ P3jPLAYLISTS.inline_0 = [
 
 Use 1337 CTF skills to get the new URL
 ```
-$ echo "aHR0cDovL3dwcmIuc3RyZWFtZ3V5czEuY29tL2xpc3Rlbi5tcDM=" | base64 -d
+$ echo "aHR0cDovL3dwcmIuc3RyZWFtZ3V5czEuY29tL2xpc3Rlbi5tcDM="\
+ | base64 -d
 http://wprb.streamguys1.com/listen.mp3
 ```
 

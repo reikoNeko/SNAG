@@ -1,6 +1,6 @@
 theme : template
 layout : top
 
-# theme-override: PITCHME.css
+theme-override: PITCHME.css
 
 published: false

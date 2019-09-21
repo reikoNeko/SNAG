@@ -337,6 +337,8 @@ LiveOverflow's Video Intro to CTFs:
 Walkthrough of a BSides CTF solution:
 * https://medium.com/secjuice/ctfjawn-2017-bsides-philly-write-up-801206d73f57
 
+---
+
 Alice Goldfuss solves CTFs in real time:
 * https://www.twitch.tv/bletchleypunk/videos
 

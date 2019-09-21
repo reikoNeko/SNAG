@@ -1,5 +1,5 @@
 ## SECURITY IS NOT A GAME (THE GAME)
-### from Tron to DefCon in 45 minutes
+### from Tron to DefCon in (oops, 30) minutes
 
 ##### Rachel Rawlings
 
